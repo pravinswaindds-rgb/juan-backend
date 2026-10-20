@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_contact_sections",
+  "info": {
+    "displayName": "Contact Section"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "successMessage": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

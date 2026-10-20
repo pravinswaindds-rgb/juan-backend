@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectUrl": {
+      "type": "string"
+    },
+    "githubUrl": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "statuss": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "active",
+        "archived"
+      ]
+    },
+    "technologies": {
+      "type": "component",
+      "component": "project.technology",
+      "repeatable": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "game",
+        "application"
+      ]
+    }
+  }
+}

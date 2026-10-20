@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heroo": {
+      "type": "component",
+      "component": "shared.hero",
+      "repeatable": false
+    },
+    "Statistics": {
+      "type": "component",
+      "component": "about.statistic",
+      "repeatable": true
+    },
+    "CompanyIntro": {
+      "type": "component",
+      "component": "about.company-introduction",
+      "repeatable": false
+    },
+    "Philosophy": {
+      "type": "component",
+      "component": "about.philosophy-section",
+      "repeatable": false
+    },
+    "Collaborationn": {
+      "type": "component",
+      "component": "shared.collaboration-cta",
+      "repeatable": false
+    }
+  }
+}

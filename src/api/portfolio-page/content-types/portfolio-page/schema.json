@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolio_pages",
+  "info": {
+    "singularName": "portfolio-page",
+    "pluralName": "portfolio-pages",
+    "displayName": "Portfolio Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heroo": {
+      "type": "component",
+      "component": "shared.hero",
+      "repeatable": false
+    },
+    "PortfolioProjects": {
+      "type": "component",
+      "component": "portfolio.portfolio-items",
+      "repeatable": true
+    },
+    "CTAA": {
+      "type": "component",
+      "component": "shared.collaboration-cta",
+      "repeatable": false
+    },
+    "category": {
+      "type": "component",
+      "component": "portfolio.portfolio-category",
+      "repeatable": true
+    }
+  }
+}

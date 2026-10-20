@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_about_philosophy_cards",
+  "info": {
+    "displayName": "Philosophy Card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bulletColor": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "component",
+      "component": "shared.list-items",
+      "repeatable": true
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

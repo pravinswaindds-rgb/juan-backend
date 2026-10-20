@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_navigation_items",
+  "info": {
+    "displayName": "Navigation Item"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "OpenNewTab": {
+      "type": "boolean"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "Order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

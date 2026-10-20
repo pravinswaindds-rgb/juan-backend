@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "Services Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heroo": {
+      "type": "component",
+      "component": "shared.hero",
+      "repeatable": false
+    },
+    "Statistics": {
+      "type": "component",
+      "component": "about.statistic",
+      "repeatable": true
+    },
+    "Servicessection": {
+      "type": "component",
+      "component": "services.services-section",
+      "repeatable": false
+    },
+    "FeaturedProject": {
+      "type": "component",
+      "component": "services.featured-project",
+      "repeatable": false
+    },
+    "CTAA": {
+      "type": "component",
+      "component": "shared.collaboration-cta",
+      "repeatable": false
+    }
+  }
+}

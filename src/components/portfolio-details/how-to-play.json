@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_portfolio_details_how_to_plays",
+  "info": {
+    "displayName": "How To Play"
+  },
+  "options": {},
+  "attributes": {
+    "SectionLabel": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

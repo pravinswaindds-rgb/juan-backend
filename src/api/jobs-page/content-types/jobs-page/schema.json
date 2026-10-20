@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "jobs_pages",
+  "info": {
+    "singularName": "jobs-page",
+    "pluralName": "jobs-pages",
+    "displayName": "Jobs Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "component": "shared.hero",
+      "repeatable": false
+    },
+    "whychooseus": {
+      "type": "component",
+      "component": "home.why-choose-us",
+      "repeatable": true
+    },
+    "jobs": {
+      "type": "component",
+      "component": "home.why-choose-us",
+      "repeatable": true
+    },
+    "BenefitsSection": {
+      "type": "component",
+      "component": "job.benefits-section",
+      "repeatable": false
+    },
+    "positions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::job-position.job-position"
+    },
+    "CTA": {
+      "type": "component",
+      "component": "shared.collaboration-cta",
+      "repeatable": false
+    }
+  }
+}

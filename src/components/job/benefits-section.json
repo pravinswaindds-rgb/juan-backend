@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_job_benefits_sections",
+  "info": {
+    "displayName": "Benefits Section"
+  },
+  "options": {},
+  "attributes": {
+    "BenefitsSectionLabel": {
+      "type": "string"
+    },
+    "BenefitsTitle": {
+      "type": "string"
+    },
+    "BenefitsDescription": {
+      "type": "blocks"
+    },
+    "Benefits": {
+      "type": "component",
+      "component": "job.benefit",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

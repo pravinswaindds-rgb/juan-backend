@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_services_featured_projects",
+  "info": {
+    "displayName": "Featured Project"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "CTAButtons": {
+      "type": "component",
+      "component": "shared.cta-button",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

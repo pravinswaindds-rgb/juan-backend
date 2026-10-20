@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_portfolio_portfolio_items",
+  "info": {
+    "displayName": "Portfolio Items"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project"
+    },
+    "Orderr": {
+      "type": "integer"
+    },
+    "IsActivee": {
+      "type": "boolean"
+    },
+    "ViewDetailsLabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

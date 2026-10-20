@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blog_new_tags",
+  "info": {
+    "displayName": "NewTag",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Order": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "config": {}
+}

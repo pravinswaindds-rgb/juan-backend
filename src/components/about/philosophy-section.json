@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_philosophy_sections",
+  "info": {
+    "displayName": "Philosophy Section"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "about.philosophy-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

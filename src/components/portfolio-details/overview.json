@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_portfolio_details_overviews",
+  "info": {
+    "displayName": "Overview"
+  },
+  "options": {},
+  "attributes": {
+    "SectionLabel": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

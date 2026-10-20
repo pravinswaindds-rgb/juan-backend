@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_home_why_choose_uses",
+  "info": {
+    "displayName": "Why Choose Us"
+  },
+  "options": {},
+  "attributes": {
+    "eyebroww": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "home.feature-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

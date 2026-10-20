@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_footer_social_icons",
+  "info": {
+    "displayName": "social icons",
+    "icon": "house"
+  },
+  "options": {},
+  "attributes": {
+    "Platform": {
+      "type": "enumeration",
+      "enum": [
+        "YouTube",
+        "Facebook",
+        "Instagram",
+        "TikTok",
+        "LinkedIn",
+        "X",
+        "Snapchat"
+      ]
+    },
+    "Url": {
+      "type": "string"
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

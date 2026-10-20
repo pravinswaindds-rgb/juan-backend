@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blog_blog_tags",
+  "info": {
+    "displayName": "Blog Tag"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Order": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

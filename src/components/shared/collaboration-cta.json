@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_collaboration_ctas",
+  "info": {
+    "displayName": "Collaboration CTA"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryButton": {
+      "type": "component",
+      "component": "shared.cta-button",
+      "repeatable": false
+    },
+    "secondaryButton": {
+      "type": "component",
+      "component": "shared.cta-button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

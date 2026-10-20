@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_maps",
+  "info": {
+    "displayName": "Map"
+  },
+  "options": {},
+  "attributes": {
+    "MapTitle": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "decimal"
+    },
+    "Longitude": {
+      "type": "decimal"
+    },
+    "Zoom": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

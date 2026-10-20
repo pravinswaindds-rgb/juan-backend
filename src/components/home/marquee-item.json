@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_marquee_items",
+  "info": {
+    "displayName": "Marquee Item"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

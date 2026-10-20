@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_portfolio_details_project_tags",
+  "info": {
+    "displayName": "Project Tag"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Order": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "shareapp": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

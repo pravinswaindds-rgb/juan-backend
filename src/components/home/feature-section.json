@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_feature_sections",
+  "info": {
+    "displayName": "Feature Section"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "home.feature-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

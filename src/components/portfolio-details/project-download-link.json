@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_portfolio_details_project_download_links",
+  "info": {
+    "displayName": "Project Download Link"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OpenNewTab": {
+      "type": "boolean"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "Order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

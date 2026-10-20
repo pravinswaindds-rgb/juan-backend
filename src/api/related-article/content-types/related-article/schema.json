@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "related_articles",
+  "info": {
+    "singularName": "related-article",
+    "pluralName": "related-articles",
+    "displayName": "RelatedArticles"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "RelatedArticles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog-post.blog-post",
+      "inversedBy": "related_articles"
+    }
+  }
+}

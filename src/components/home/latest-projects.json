@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_latest_projects",
+  "info": {
+    "displayName": "Latest Projects"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "ViewAllButton": {
+      "type": "component",
+      "component": "shared.cta-button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

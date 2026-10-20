@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_contact_informations",
+  "info": {
+    "displayName": "ContactInformation"
+  },
+  "options": {},
+  "attributes": {
+    "SectionLabel": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Items": {
+      "type": "component",
+      "component": "shared.contact-item",
+      "repeatable": true
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "integer"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "ContactForm": {
+      "type": "component",
+      "component": "shared.contact-form",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

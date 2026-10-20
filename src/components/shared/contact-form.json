@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_contact_forms",
+  "info": {
+    "displayName": "Contact Form"
+  },
+  "options": {},
+  "attributes": {
+    "FullNameLabel": {
+      "type": "string"
+    },
+    "FullNamePlaceholder": {
+      "type": "string"
+    },
+    "EmailLabel": {
+      "type": "string"
+    },
+    "EmailPlaceholder": {
+      "type": "string"
+    },
+    "PhoneLabel": {
+      "type": "string"
+    },
+    "PhonePlaceholder": {
+      "type": "string"
+    },
+    "SubjectLabel": {
+      "type": "string"
+    },
+    "SubjectOptions": {
+      "type": "enumeration",
+      "enum": [
+        "General Inquiry"
+      ]
+    },
+    "MessageLabel": {
+      "type": "string"
+    },
+    "MessagePlaceholder": {
+      "type": "string"
+    },
+    "SubmitButton": {
+      "type": "component",
+      "component": "shared.cta-button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

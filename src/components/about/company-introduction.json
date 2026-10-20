@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_about_company_introductions",
+  "info": {
+    "displayName": "Company Introduction"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "highlights": {
+      "type": "component",
+      "component": "about.highlight-item",
+      "repeatable": true
+    },
+    "eyebrow": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

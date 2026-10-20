@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_details_pages",
+  "info": {
+    "singularName": "portfolio-details-page",
+    "pluralName": "portfolio-details-pages",
+    "displayName": "Portfolio Details Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "Hero": {
+      "type": "component",
+      "component": "shared.hero",
+      "repeatable": false
+    },
+    "ProjectOverview": {
+      "type": "component",
+      "component": "portfolio-details.overview",
+      "repeatable": false
+    },
+    "Gallery": {
+      "type": "component",
+      "component": "portfolio-details.gallery",
+      "repeatable": false
+    },
+    "HowToPlay": {
+      "type": "component",
+      "component": "portfolio-details.how-to-play",
+      "repeatable": false
+    },
+    "KeyFeatures": {
+      "type": "blocks"
+    },
+    "QRCode": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DownloadLinks": {
+      "type": "component",
+      "component": "portfolio-details.project-download-link",
+      "repeatable": true
+    },
+    "ProjectTag": {
+      "type": "component",
+      "component": "portfolio-details.project-tag",
+      "repeatable": true
+    },
+    "CTA": {
+      "type": "component",
+      "component": "shared.collaboration-cta",
+      "repeatable": false
+    }
+  }
+}

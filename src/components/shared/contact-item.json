@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_contact_items",
+  "info": {
+    "displayName": "Contact Item"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "PHONE",
+        "EMAIL",
+        "ADDRESS"
+      ]
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Order": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}
